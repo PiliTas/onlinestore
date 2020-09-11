@@ -27,7 +27,6 @@ const setResHtml = (sql, cb) => {
                 // SE GENERAN TARJETAS PARA CADA PRODUCTO
                 for (let i = 0; i < res.length; i++) {
                     //Si EL PRODUCTO NO TIENE IMAGEN SE AGREGA UNA POR DEFECTO
-                    console.log(res[i].url_image);
                     if (res[i].url_image === null || res[i].url_image == '') {
                         res[i].url_image = "https://www.freeiconspng.com/img/23500";
                     }
