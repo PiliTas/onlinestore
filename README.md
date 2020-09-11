@@ -13,6 +13,7 @@ Fig.1 Prototipo
 ## Vistas
 
 Fig.2 Vista WEB
+
 ![prototipo](images/vistaWeb.png)
 
 
