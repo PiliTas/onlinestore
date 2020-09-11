@@ -29,7 +29,6 @@ const setResHtml = (sql, cb) => {
                     console.log(res[i].url_image);
                     if (res[i].url_image === null || res[i].url_image == '') {
                         res[i].url_image = "https://www.freeiconspng.com/img/23500";
-                        console.log(res[i].url_image);
                     }
                     card += `<div class="cards"> 
                 <ul>
