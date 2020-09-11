@@ -1,6 +1,8 @@
 const mysql = require('mysql');
 const http = require('http');
 
+const port = process.env.PORT || 3000;
+
 // SE CONECTA LA BASE DE DATOS
 const db = mysql.createPool({
     host: 'mdb-test.c6vunyturrl6.us-west-1.rds.amazonaws.com',
@@ -60,4 +62,7 @@ http.createServer((req, res) => {
             res.end(); //SE TERMINA DE CREAR RESPUESTA
         });
     })
-    .listen(8080);
+    .listen(port, () => {
+        console.log(`Escuchando peticiones en el puerto ${ port }`);
+
+    });
