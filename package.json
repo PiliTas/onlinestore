@@ -1,14 +1,15 @@
 {
-  "name": "onlinestore",
-  "version": "1.0.0",
-  "description": "Tienda online test",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "NG",
-  "license": "ISC",
-  "dependencies": {
-    "mysql": "^2.18.1"
-  }
+    "name": "onlinestore",
+    "version": "1.0.0",
+    "description": "Tienda online test",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node index.js"
+    },
+    "author": "NG",
+    "license": "ISC",
+    "dependencies": {
+        "mysql": "^2.18.1"
+    }
 }
