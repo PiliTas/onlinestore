@@ -1,8 +1,8 @@
 # PROYECTO FULLSTACK - Bsale
 
-Store es un proyecto de una tienda online, en la que se despliegan los productos agrupados por categorías.
+OnlineStore es un proyecto de una tienda online, en la que se despliegan los productos agrupados por categorías.
 
-Como prototipo de baja se utilizó la fotografía enviada por el cliente (Fig.1)
+Como prototipo de baja, se utilizó la fotografía enviada por el cliente (Fig.1)
 
 Fig.1 Prototipo
 
