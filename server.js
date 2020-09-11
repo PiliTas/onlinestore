@@ -17,7 +17,6 @@ let page = '<html><style>*{box-sizing: border-box;}body, html {background:#f2f3f
 const setResHtml = (sql, cb) => {
         db.getConnection((err, conn) => {
             if (err) throw err;
-
             conn.query(sql, (err, res, fields) => {
                 if (err) throw err;
                 // VARIABLE PARA ALMACENAR LOS DATOS DEL QUERY
